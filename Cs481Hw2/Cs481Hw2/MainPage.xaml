@@ -4,8 +4,21 @@
              xmlns:local="clr-namespace:Cs481Hw2"
              x:Class="Cs481Hw2.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+    <StackLayout>
+        <Label Text="About Me" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+        <Label Text="Judah Perez" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="Programmer" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="3.5 years experience building ecommerce applications" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Image Source="me.png"></Image>
+    </StackLayout>
+	
 
 </ContentPage>

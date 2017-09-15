@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Cs481Hw2"
              x:Class="Cs481Hw2.MainPage">
-
-    <StackLayout>
-        <Label Text="About Me" 
+<ScrollView>
+    <StackLayout Padding="10,10,10,20">
+        <Label FontSize="25" Text="About Me" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
         <Label Text="Judah Perez" 
@@ -14,11 +14,24 @@
         <Label Text="Programmer" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
-        <Label Text="3.5 years experience building ecommerce applications" 
+        <Label Text="5 years programming expeince overall"
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
-        <Image Source="me.png"></Image>
+        <Label Text="5 years experience programmming video games with C# and Unity" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="3.5 years experience building ecommerce applications" 
+
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" 
+               />
+        
+        <Label Text="My favorite things to do are play video games, program, watch movies, swim, and read. I plan on becoming an excellent programmer and hopefully get into the video games industry." 
+           Margin="0, 30"
+               VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Image Margin="0, 20" Source="me.png"></Image>
     </StackLayout>
-	
+</ScrollView>
 
 </ContentPage>
